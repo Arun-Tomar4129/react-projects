@@ -15,10 +15,10 @@ const App = () => {
 
   function Mix() {
     localStorage.setItem("Color", JSON.stringify({ Red, Green, Blue }));
-     setShowPopup(true);
-     setTimeout(() => {
-    setShowPopup(false);
-  }, 1000);
+    setShowPopup(true);
+    setTimeout(() => {
+      setShowPopup(false);
+    }, 1000);
   }
 
   useEffect(() => {
@@ -45,9 +45,7 @@ const App = () => {
       {showPopup && (
         <div className="fixed inset-0 flex items-center justify-center z-50">
           <div className="bg-white px-6 py-4 rounded-lg shadow-lg border-2 border-green-400 ">
-            <h2 className="text-green-600 font-bold text-lg">
-               Color Saved!
-            </h2>
+            <h2 className="text-green-600 font-bold text-lg">Color Saved!</h2>
           </div>
         </div>
       )}
