@@ -2,15 +2,15 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="p-4 space-y-4 h-screen bg-gradient-to-br from-blue-100 via-indigo-200 to-purple-200">
+    <div className="p-4 space-y-4 min-h-screen bg-gradient-to-br from-blue-100 via-indigo-200 to-purple-200">
       <div className="block sm:hidden">
-        <div className="w-full max-w-[300px] aspect-square mx-auto  text-black rounded-lg shadow-lg flex flex-col items-center justify-center text-center p-4">
+        <div className="w-full max-w-[300px] aspect-square mx-auto text-black rounded-lg shadow-lg flex flex-col items-center justify-center text-center p-4">
           <img
             src="images/myimage.jpg"
             alt="Arun Tomar"
             className="w-24 h-24 rounded-full object-cover mb-3 border-2 border-indigo-400"
           />
-          <p className="text-sm font-medium ">
+          <p className="text-sm font-medium">
             Hi, I’m Arun Tomar, a passionate BCA student from TMU with a strong interest in web development and artificial intelligence
           </p>
         </div>
@@ -42,7 +42,7 @@ const Home = () => {
         {[{ Title: " My projects" }, { Title: " My Resume" }].map((user, i) => (
           <div
             key={i}
-            className="sm:w-[300px] sm:h-[80px] lg:w-[500px] lg:h-[120px] bg-gradient-to-b from-blue-300 via-indigo-300 to-sky-400 shadow-sm rounded-full flex lg:text-5xl lg:font-extrabold items-center justify-center hover:shadow-lg hover:shadow-blue-700 transition duration-200 "
+            className="w-full sm:w-[300px] sm:h-[80px] lg:w-[500px] lg:h-[120px] bg-gradient-to-b from-blue-300 via-indigo-300 to-sky-400 shadow-sm rounded-2xl flex lg:text-5xl lg:font-extrabold items-center justify-center hover:shadow-lg hover:shadow-blue-700 transition duration-200"
           >
             {user.Title}
           </div>

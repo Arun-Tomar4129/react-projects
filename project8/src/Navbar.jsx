@@ -63,7 +63,7 @@ const Navbar = () => {
       </div>
 
       {menuOpen && (
-        <div className="sm:hidden mt-2 flex flex-col gap-2 bg-white text-black rounded shadow p-4 absolute text-center top-full right-0 w-[60%] z-10">
+        <div className="sm:hidden mt-2 flex flex-col gap-2 bg-indigo-200 text-black rounded shadow p-4 absolute text-center top-full right-0 w-[60%] z-10">
           <Link
             to="/"
             onClick={() => setMenuOpen(false)}

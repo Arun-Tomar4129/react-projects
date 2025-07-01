@@ -28,7 +28,7 @@ const About = () => {
 
   return (
     <div
-      className={`p-6 sm:p-10 max-w-5xl mx-auto transition-all duration-1000 ease-in-out ${
+      className={`p-6 bg-indigo-200 sm:p-10 max-w-5xl mx-auto transition-all duration-1000 ease-in-out ${
         animate ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
       }`}
     >
@@ -37,7 +37,7 @@ const About = () => {
       </h1>
 
       {/* My Interest Section */}
-      <div className="shadow-xl bg-white rounded-md p-5 mb-10 transition hover:shadow-blue-300">
+      <div className="shadow-xl bg-blue-200 rounded-md p-5 mb-10 transition hover:shadow-blue-300">
         <h2 className="text-2xl font-semibold text-purple-700 mb-2">My Interests</h2>
         <p className="text-[16px] sm:text-[18px] leading-relaxed text-gray-700">
           I'm deeply passionate about <strong>Frontend Development</strong> and the growing field of 
@@ -48,7 +48,7 @@ const About = () => {
       </div>
 
       {/* Languages Section */}
-      <div className="mb-12 bg-white p-5 rounded shadow-md hover:shadow-blue-300 transition">
+      <div className="mb-12 bg-blue-200 p-5 rounded shadow-md hover:shadow-blue-300 transition">
         <h2 className="text-2xl font-semibold text-blue-600 mb-6 text-center">Languages</h2>
         <div className="space-y-4">
           {skills.Languages.map((item, index) => (
@@ -70,7 +70,7 @@ const About = () => {
       </div>
 
       {/* Tools Section */}
-      <div className="bg-white p-5 rounded shadow-md hover:shadow-purple-300 transition">
+      <div className=" p-5 rounded bg-blue-200 shadow-md hover:shadow-purple-300 transition">
         <h2 className="text-2xl font-semibold text-purple-600 mb-6 text-center">Tools & Technologies</h2>
         <div className="space-y-4">
           {skills.Tools.map((item, index) => (
