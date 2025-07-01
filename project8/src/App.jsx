@@ -5,6 +5,9 @@ import Home from "./Home";
 import Project from "./Project";
 import About from "./About";
 
+
+
+
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [showApp, setShowApp] = useState(false);

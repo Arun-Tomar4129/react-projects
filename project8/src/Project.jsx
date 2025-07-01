@@ -26,7 +26,7 @@ const Project = () => {
     <div className="p-4 min-h-screen bg-gradient-to-br from-blue-100 via-indigo-200 to-purple-200">
       <h1 className="text-2xl font-bold mb-8 text-center lg:text-5xl">My Projects</h1>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {projectData.map((project, i) => (
           <div
             key={i}

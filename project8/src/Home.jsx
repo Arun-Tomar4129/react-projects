@@ -42,7 +42,7 @@ const Home = () => {
         {[{ Title: " My projects" }, { Title: " My Resume" }].map((user, i) => (
           <div
             key={i}
-            className="sm:w-[300px] sm:h-[80px] lg:w-[500px] lg:h-[120px] bg-gradient-to-b from-blue-300 via-indigo-300 to-sky-400 shadow-sm rounded-full flex lg:text-5xl lg:font-extrabold items-center justify-center hover:shadow-lg hover:shadow-blue-700 transition duration-200"
+            className="sm:w-[300px] sm:h-[80px] lg:w-[500px] lg:h-[120px] bg-gradient-to-b from-blue-300 via-indigo-300 to-sky-400 shadow-sm rounded-full flex lg:text-5xl lg:font-extrabold items-center justify-center hover:shadow-lg hover:shadow-blue-700 transition duration-200 "
           >
             {user.Title}
           </div>
